@@ -1,7 +1,4 @@
-# Inception-of-Things
-
-by [bbrassar](https://github.com/benjaminbrassart) and
-[jfremond](https://github.com/jfremond)
+# Inception-of-Things by [bbrassar](https://github.com/benjaminbrassart) and [jfremond](https://github.com/jfremond)
 -------
 This project is a minimal introduction to Kubernetes. It aims to deepen our
 knowledge by making us set up several environments under specific rules using
