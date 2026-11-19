@@ -25,7 +25,7 @@ Vagrant.configure("2") do |config|
       # Upload and execute the script "master.sh" within the VM
       jfremondS.vm.provision "shell", path: "scripts/master.sh"
     end
-  
+
     # Define our second VM named "jfremondSW"
     config.vm.define "jfremondSW" do |jfremondSW|
       # Change the hostname to "jfremondSW"
@@ -44,6 +44,4 @@ Vagrant.configure("2") do |config|
       # Upload and execute the script "agent.sh" within the VM
       jfremondSW.vm.provision "shell", path: "scripts/agent.sh"
     end
-  
   end
-  
