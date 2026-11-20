@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
 
     # The base image to create the VM
     config.vm.box = "debian/bookworm64"
-  
+ 
     # Define our first VM named "jfremondS"
     config.vm.define "jfremondS" do |jfremondS|
       # Change the hostname to "jfremondS"
